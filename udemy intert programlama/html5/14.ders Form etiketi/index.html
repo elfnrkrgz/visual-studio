@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<style>
+     div{
+width: 100%;
+}
+</style>-->
+    <style>
+        #sifre {
+            width: 300px;
+            color: cadetblue;
+            border: 1px solid green;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <form action="https://wwww.google.com">
+        <!--form gönderildi anda bir actiona girer , gönderilmesini de koymuş olduğumuz submit butonu ile sağlarız.-->
+        <!--backendde alınan kodlarlar css ile veriler alınır ve istenilenler yerine getirilir.
+Form etiketlerinin yönlendirilebilmesi için submit(sunmak) yapılmalıdır.Verileri inter sitesine ulaştırır.-->
+        <input type="submit" value="gönder">
+        <input type="text" placeholder="gönder">
+        <input type="text" value="isim">
+        <br> <br>
+        <input type="text" name="kullaniciadi" id="kullaniciadi" placeholder="İsminizi giriniz">
+        <br>
+        <input type="password" name="sifre" id="sifre" placeholder="Şifrenizi giriniz.">
+        <br>
+        <input type="submit" value="Gönder">
+        <input type="radio" name="gender" value="Erkek"> Erkek
+        <input type="radio" name="gender" value="Kadın">Kadın
+        <!--gender aynı isime sahip olduğunda kisinden birini seçebilirsin anlamına geliyor
+fakat ben gender ve gender2 olarak name kısımlarını yazmış olsaydım eğer o zaman 
+iki radio butonu da seçilebiliyor olacaktı tek seçim yapılabilmesi için 
+name kısmının aynı olması gerekir.-->
+        <p> <strong>form method="GET" form</strong> dediğimiz zaman
+            submit butonuna girilen her şey url'ye aktarılır . </p>
+        <p>Form içerisinde bilgilerimizi bir yere işlenmesi için gönderirken
+            GET de olduğu gibi bilgilerimizin URL de görünmemesini sağlamalıyız. <br>
+            Bunu da <strong>method="POST" form</strong>ile yaparız,bunun sayesinde urlde bilgiler görünmez ekrana hata
+            yazdırılır.
+        </p>
+        <br>
+        <br>
+        <br>
+<select name="memleket" id="memleket">
+    <option value="trakya">Trakya</option>
+    <option value="Ege">Ege</option>
+    <option value="Karadeniz">Karadeniz</option>
+</select>
+
+    </form>
+    <!--div-bölme etiketidir.-->
+</body>
+
+</html>
