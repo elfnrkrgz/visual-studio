@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            /*paragrafın içerisindeki ilk elementin rengini kırmızı yaptık*/
+            color: red;
+        }
+
+        p::first-line {
+            background-color: sandybrown;
+        }
+        p{ /*ilk satırın arka plan rengi değişmez. ve sadece inline olarak background color yapar.*/
+            background-color: seagreen;
+        }
+        /*psudeo element olarak geçiyor bunlar*/
+        p::after{
+            content:"naber";
+            background-color: slateblue;
+        }
+        p::before{
+            content: 123;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <p>elif nur <br> karagöz</p>
+
+</body>
+
+</html>

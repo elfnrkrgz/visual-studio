@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img[title="komedi"] {
+            border: 30px solid black;
+        }
+
+        p[title^="bu"] {
+            /*^ şu işaret title ın başındaki anlamına geliyor. 
+            sondaki kelimeyi ise dolar işaretiyle , 
+            içinde geçenleri ise ~ işaretiyle seçebiliriz.*/
+            color: red;
+        }
+
+        p[title^="bu"][title~="paragraftır."] { /* fazladan özellik seçimlerini yapmak için [] yan yana bunların içine yazmaya devam ederiz.*/
+            color: seagreen;
+        }
+    </style>
+</head>
+
+<body>
+    <!--attribute seleciton özellik seçimidir.-->
+    <img src="komedi.jpg" width="%50" title="komedi" alt="Resim bulunamadı.">
+    <p title="bu bir paragraftır.">paragraf1</p>
+    <p title="bu bir paragraf değildir.">paragraf2</p>
+    <p title="bir paragraf">paragraf3</p>
+
+</body>
+
+</html>
