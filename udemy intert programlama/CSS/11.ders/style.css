@@ -1,0 +1,14 @@
+p{
+    font-weight: bold;
+    font-weight: unset;
+    font-weight: 800;
+} 
+/* initial başlangıç değerine döndürür.
+bold ile bolder aynıdır.
+lighter ile normal arasında gözle görülür bir fark yok. */
+h1{
+    font-weight: inherit;
+}
+div{
+    font-weight: bold;
+}

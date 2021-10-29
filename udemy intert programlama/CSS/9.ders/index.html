@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+    font-size: 30px;
+}
+h1{
+    font-size: 1em; 
+    font-weight: normal;
+}
+p{
+    font-size: 20px;
+}
+div{
+    font-size: 30px;
+}
+
+/* biz daha body css i vermeden önce dahi h1 etiketinin boyutu 32 pxdi
+sitemiz bize kendi içerisinde otomatik bu şekilde atamalar yapar.
+eğer ben css olarak body nin size nı 30 px yaptığımda h1 etiketimin içerisinde ki yazı da
+onunla beraber büyüyorsa bu ikisinin bağlı olduğunu göstermektedir. */
+/* em dediğimiz zaman hem body içerisindeki hem de h1 içerisindeki yazı aynı boyuta gelir.
+em üst etiketinin yani parentinin size ölçüsüne göre ölçüsünü alır. eğer üstünde font size yoksa bir üstünün font size kısmına bakar. */
+ /* rem dediğimiz zaman ise rootun size nı al anlamına gelmektedir yani html sayfasının fontunu kullanmak anlamına gelmektedir. */
+    </style>
+</head>
+<body>
+    <!-- Bizim 3 farklı yazı tipimiz bulunmaktadır
+px
+em
+rem -->
+    Elif nur karagöz
+    <h1>Elif nur karagöz</h1>
+    <div>
+        ABVDSDLDSFL
+        <p>Elif karagöz</p>
+    </div>
+    <!-- div tarayıcıda defult 16pxdir. -->
+    <!-- eğer biz hem div hem de paragrafın içerisindeki fontun sizenın aynı olmasını istiyor isek
+    p{
+    font-size: 1em;
+}
+div{
+    font-size: 30px;
+}
+ demeliyiz.-->
+ <!-- root: kök demektir. yani html sayfasının en atasına inmek gibi bir şey. -->
+</body>
+</html>
