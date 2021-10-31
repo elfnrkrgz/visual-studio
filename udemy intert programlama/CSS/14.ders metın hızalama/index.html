@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>metin hizalama</title>
+    <style>
+        p {
+            border: 1px solid red;
+            height: 300px;
+        }
+
+        .uzunmetin {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+
+        }
+
+        .kısametin {
+            display: table-cell;
+            text-align: justify;
+            vertical-align: bottom;
+        }
+
+        /* justify soldan ve sağdan düzgünce hizalar.
+initial başlangıçtaki düzenini koru yani defult halini.
+end rightla aynı görevi görüyor neredeyse.
+start solla aynı sayılır. */
+        /* Vertical align tablo hücrelerinde etkin haline gelir.
+.uzunmetin classına sahip paragrafımız bir tablo hücresi
+ olmadığından dolayı display table-cell yaptık yani tablo
+  hücresiymiş gibi gösterip vertical özelliğini kullanmamıza yaradı
+   bu bizim. */
+    </style>
+</head>
+
+<body>
+    text-aling horizontal align (yatay hizalama) <br>
+    vertical align (dikey hizalama) <br>
+    <p class="uzunmetin">Lorem ipsum dolor sit amet consectetur adipisicing.
+        Lorem, ipsum dolor sit amet consectetur adipisicing.
+        Lorem ipsum dolor, sit amet consectetur adipisicing.
+        Lorem ipsum dolor sit amet consectetur adipisicing.
+        Lorem ipsum, dolor sit amet consectetur adipisicing.
+        Lorem ipsum dolor sit amet consectetur adipisicing.
+        Lorem ipsum, dolor sit amet consectetur adipisicing.
+    </p>
+    <br>
+    <p class="kısametin"> Lorem ipsum dolor sit amet.</p>
+</body>
+
+</html>
