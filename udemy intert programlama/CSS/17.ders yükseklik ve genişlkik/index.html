@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>width and height </title>
+    <style>
+        div{
+            border: 10px solid red;
+            height: 500px;
+            width: 50%;
+            /* responsive tasarım için genellikle % tercih edilir.
+            display : ... dediğimizde bana bunu bu şekilde göster demek oluyor.
+            linke genişlik ve yükseklik verilemez çünkü ınlinedır. Block elemenentlerine verilebilir.3 */
+        }
+        .p1{
+            border: 10px solid blue;
+            min-height: 150px;
+        }
+        .p2{
+            border: 10px solid tomato;
+            max-width: 100px;
+        }
+    </style>
+</head>
+<body>
+  <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+  <p class="p2">Lorem ipsum dolor sit amet.</p>
+<div>
+    eğer divin içerisinden bu şekilde style olarak vermezsek yüksekliğini kabul etmez
+<br>
+ve eğer divin içerisinden style olarak veriyorsak ınline olarak veriyoruz.
+
+</div>
+</body>
+</html>

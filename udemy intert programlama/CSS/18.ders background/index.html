@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <style>
+        p {
+            background-color: bisque;
+            height: 1000px;
+            /* img nin boyutunu background size olarak veriyoruz. */
+            background-size: 200px 200px;
+            background-image: url(LOGO[675].png);
+            background-repeat: no-repeat;
+            /* background-repeat: repeat-x ve ya -y diyerek eksenlere göre tekrar etmesini de sağlayabiliriz. */
+            background-attachment: fixed;
+            /* fixed yapıldığında sayfada aşağıya dahi insek o da sayfayla beraber kayar. */
+            background-attachment: scroll;
+            /* scroll olması da sayfa aşağıda indiğinde yukarıda logonun kalmasını sağlıyor. */
+            background-position: right top;
+            /* positiondan sağ sol alt üst olarak nerelere sabitlemek istediğimizi belirtiyoruz. */
+            /* yukarıda yazılan her şeyi tek satır kod halinde de yazabiliriz ayrı ayrı yazılması şart değildir. */
+            /* eklediğimiz fotoğrafın arka planın tamamını kaplaması için genişlik ve yüksekliğini 100% olarak vermeliyiz. (cover)
+             contein kendini verilen background yüksek ve genişliğine göre kendini sığdırmaya çalışır.
+             cover kalitesini düşürmeden içeriye aktarır.
+             bunlar background-size özellikleridir. w3dan daha fazlasına bakabilirsiniz.*/
+             
+        }
+    </style>
+</head>
+
+<body>
+    <p>Background dersine hoşgeldiniz.</p>
+</body>
+
+</html>

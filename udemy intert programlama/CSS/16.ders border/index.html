@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border</title>
+    <style>
+        div {
+        /* border-radius: 150px; kenarlıkların yumuşamasını sağlar. */
+            width: 500px;
+            height: 500px;
+            border: 1px solid red !important ; 
+            /* border-top: ; üstünü sağını solunu right left buttom filan diyerek ayrı ayrı ayarlayabiliriz. */
+
+        }
+
+
+        /* solid düz çizgi anlamına geliyor.
+        kaç px olsun nasıl bir çizgi olsun hangi renk olsun sıralamasıyla veri veriyoruz. */
+    </style>
+</head>
+
+<body>
+    box model (kutu modeli)
+    <!-- width-height > padding > border > margin  içten dışa sıralanışı  -->
+    <!-- padding doldurmak demektir. kutunun içerisindeki block etiketleri için belli bir kısmını doldurmak anlamına gelmektedir. -->
+    <!-- marjin : dış dolgu gibidir. -->
+    <div style="border:5px solid red;">
+        <!-- inline olarak style verince yukarıdakileri okumaz bu kodu okur yalnızca. Fakat important denildiği takdirde sadece o kodu ciddiye alır. -->
+    </div>
+</body>
+
+</html>

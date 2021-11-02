@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+        div{
+            width: 33%;
+            float: left;
+            border: 1px solid red;
+            background-color: bisque;
+            color: cadetblue;
+            margin-right: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+            /* her div kendi sağ ve solundan 
+            belirtilen px kadar boşluk bırakır yani 
+            sağdan 30 px dediğimizde soldan da 20px denildiğinde elif ve nur divlerinin arasında ki boşluk 50 px olmuştur.  */
+            /* elif in de solundan 20 px boşluk olmuş oldu. */
+            /* üst sağ alt sol tek satırda vermek istersek sıralaması bu. */
+            /* padding-left: 1px; */
+            /* padding-top: 100px; */
+        }
+        /* box-sizing: border-box; */
+        /* box-sizing: content-box;
+        borderın  paddingin içerisine dengeli yayılmasını sağlar border box
+        content box ise defult halidir. */
+    </style>
+</head>
+<body>
+    <!-- border ın dışında kalan alan margindir. -->
+    <div>Elif</div>
+    <div>Nur</div>
+    <div>Karagöz</div>
+</body>
+</html>
