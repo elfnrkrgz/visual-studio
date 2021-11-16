@@ -1,0 +1,116 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 px;
+    padding: 20px;
+    background-color: rgb(151, 180, 166);
+}
+
+* {
+    box-sizing: border-box;
+    /* side barın cardların yanında düzgünce hizalanmasını sağladık. */
+}
+
+.all-div:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header {
+    background-color: rgb(3, 37, 36);
+    padding: 30px;
+}
+
+header h1 {
+    color: cornsilk;
+    text-align: center;
+    font-size: 60px;
+    margin: 1px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 1.5 0px;
+}
+
+.left-column {
+    float: left;
+    width: 70%;
+}
+
+/* burada sol kolonu sola yapıştırdık ve sayfanın %70ni kaplamasını sağladık. */
+.right-column {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+/* cardlara verilen paddinglerle eşit olması için right yani side bar kısmına da 20px padding verdim. */
+/* burada sağ kolonu sağa yapıştırdık ve sayfanın %30unu kaplamasını sağladık. */
+.card {
+    padding: 20px;
+    background-color: rgba(215, 216, 178, 0.966);
+    margin-top: 20px;
+}
+
+/* body'e verilen 20 px paddingin içerisine 20 padding daha verdiğimiz için header kısmından daha içeride görünüyor. */
+/* margin top 20 vererek tüm divlerin arasına mesafe koymuş olduk böylece her div ayrı görünüyor. */
+#karışık {
+    width: 100%;
+}
+
+#pizza {
+    width: 32.3%;
+}
+
+#şarap {
+    width: 32.3%;
+}
+
+#yemek {
+    width: 32.3%;
+    height: 212px;
+}
+
+#kahve {
+    width: 48.8%;
+}
+
+#pankek {
+    width: 48.8%;
+    height: 385px;
+}
+
+#biz {
+    width: 100%;
+}
+
+.right-column .card img {
+    width: 52.5%;
+    margin-bottom: 10px;
+
+}
+
+footer {
+    background-color: rgb(78, 109, 109);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+footer h2{
+    color: rgba(215, 216, 178, 0.966);
+    
+}
+/* responsive tasarım olabilmesi için:  */
+@media (max-width:768px) {
+    .left-column{
+        width: 100%;
+        float: left;
+    }
+    .right-column{
+        width: 100%;
+        float: right; 
+    }
+}
