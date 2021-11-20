@@ -8,25 +8,69 @@ body {
 
 * {
     box-sizing: border-box;
-    /* side barın cardların yanında düzgünce hizalanmasını sağladık. */
+    /* tüm verilen padding margin değerlerinin belirtilen ölçüler içerisinde kalmasını sağladık. */
 }
 
 .all-div:after {
     content: '';
     display: table;
     clear: both;
+    /* sağdan soldan her yerden verilen float ların birbirini etkilememesini sağladık. */
 }
 
 header {
     background-color: rgb(3, 37, 36);
-    padding: 30px;
+}
+.container .logo a {
+    display: flex;
+    margin: 0px auto;
+    padding-bottom: 90px;
+    padding-left: 80px;
+    padding-top: 0px;
 }
 
-header h1 {
+.container .logo h1 {
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+}
+/* Gonna Eat That neden ortaya gelmiyor? */
+.logo .h1 h1{
     color: cornsilk;
     text-align: center;
     font-size: 60px;
     margin: 1px;
+    padding-top: 60px;
+}
+
+
+.menu {
+    height: 62px;
+    width: 100%;
+    background-color: rgb(68, 53, 5);
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: rgb(213, 233, 180);
+
+}
+
+.menu li:hover a {
+    background-color: rgb(36, 34, 22);
 }
 
 h2 {
@@ -37,6 +81,7 @@ h2 {
 .left-column {
     float: left;
     width: 70%;
+
 }
 
 /* burada sol kolonu sola yapıştırdık ve sayfanın %70ni kaplamasını sağladık. */
@@ -99,18 +144,15 @@ footer {
     margin-top: 20px;
 
 }
-footer h2{
+
+footer h2 {
     color: rgba(215, 216, 178, 0.966);
-    
+
 }
+
 /* responsive tasarım olabilmesi için:  */
-@media (max-width:768px) {
-    .left-column{
-        width: 100%;
-        float: left;
-    }
-    .right-column{
-        width: 100%;
-        float: right; 
+@media (max-width:760px) {
+    .all-div {
+        flex-direction: column;
     }
 }
