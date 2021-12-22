@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Button-margin-padding-border-sizing</title>
+    <style>
+        body{
+            padding:70px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- tüm renk özelliklerinde kullanılanların hepsi buton özelliklerini oluşturmaktada kullanılabilir.Ve aynı zaman da a etiketleri içinde kullanılabilir. -->
+    <button class="btn btn-primary" type="button">mavi bir buton</button>
+    <button class="btn btn-outline-primary" type="button">mavi bir buton</button>
+    <button class="btn btn-primary btn-lg" type="button">mavi bir buton</button>
+    <button class="btn btn-primary btn-sm" type="button">mavi bir buton</button>
+    <button class="btn btn-danger btn-lg btn-block" type="button"> danger bir buton</button> 
+    <!-- block olan kısım çalışmadı -->
+    <!-- active tıklanmış bir buton -->
+    <!-- disabled tıklanayamayan bir buton oluşturur. -->
+
+    <!-- buton gruplarını yanyana oluşturur. -->
+    <div class="btn-group"> 
+    <button class="btn btn-primary" type="button">mavi bir buton</button>
+    <button class="btn btn-success" type="button">yeşil bir buton</button>
+    <button class="btn btn-danger" type="button">kırmızı bir buton</button>
+
+    </div>
+    <br>
+     <!-- buton gruplarını aşağıya doğru oluşturur. -->
+     <div class="btn-group-vertical"> 
+        <button class="btn btn-primary" type="button">mavi bir buton</button>
+        <button class="btn btn-success" type="button">yeşil bir buton</button>
+        <button class="btn btn-danger" type="button">kırmızı bir buton</button>
+        </div>
+
+    <!-- haber sayfalarında en sona eklenebilecek bir şey -->
+    <div class="btn-group"> 
+        <button class="btn btn-success" type="button">1</button>
+        <button class="btn btn-success" type="button">2</button>
+        <button class="btn btn-success" type="button">3</button>
+        <button class="btn btn-success" type="button">4</button>
+        <button class="btn btn-success" type="button">5</button>
+        <button class="btn btn-success" type="button">6</button>
+        <button class="btn btn-success" type="button">7</button>
+
+    </div>
+
+
+    <br>
+    <br>
+
+    <!-- MARGİN VE PADDİNG -->
+
+    <!-- 
+
+       margin(m) (o,1,2,3,4,5) m-0 , m-1 olarak kullanılabiliyor.
+       margin-right => mr
+       margin-left => ml
+       margin-top  => mt
+       margin-bottom  => mb
+
+
+       margin-top  ve  margin-bottom  => my
+       margin-left  ve  margin-right  => mx
+
+
+       padding(p) (o,1,2,3,4,5) p-0 , p-1 olarak kullanılabiliyor.
+       padding-right => pr
+       padding-left => pl
+       padding-top  => pt
+       padding-bottom  => pb
+
+
+       padding-top  ve  padding-bottom  => py
+       padding-left  ve  padding-right  => px
+
+     -->
+
+
+
+
+
+     <!-- BORDER VE SİZİNG -->
+
+
+      <div class="bg-light mt-2 p-4 border">
+       hello world
+      </div>
+      
+      <div class="bg-danger mt-2 p-4 border-primary rounded">
+        hello world
+       </div>
+
+       <div class="bg-success mt-2 p-4 w-25"> sayfanın %25ni kaplar.</div>
+       <div class="bg-success mt-2 p-4 w-50"> sayfanın %50ni kaplar.</div>
+       <div class="bg-success mt-2 p-4 w-75"> sayfanın %75ni kaplar.</div>
+
+       <br>
+       <br>
+
+    <!-- bunların grafik gibi görünmesini de sağlayabiliriz 8.dk bak -->
+
+    <div class=" shadow bg-light mt-2 p-4 border rounded"> </div>
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

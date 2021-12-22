@@ -43,3 +43,16 @@ else if(14>yas && yas<18){
 }
 else(yas=>18)
     console.log("Üniversiteye gidiyorsunuz.")
+
+    //callbackfn : bir fonk. parametre olarak gönderilen fonk demektir.
+    
+   //const newstr=(str) => str.length <2 ? str : str.slice(0,2) + str.slice(-2);
+
+   let strrr=(satır) => satır.lenght<=0 ? "String değer giriniz:" : satır.slice(0,satır.lenght/2);
+   strrr("ssdaad");
+   
+   
+   let arr = [1,2,3,4,5,6,7,8];
+   let eslesen = arr.find(sayi => sayi % 2 === 0); 
+   console.log(eslesen); 
+ 
