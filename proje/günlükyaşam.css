@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    /* tüm verilen padding margin değerlerinin belirtilen ölçüler içerisinde kalmasını sağladık. */
+}
+
+body {
+    margin: 0px;
+    padding: 50px;
+    background-color: rgb(226, 218, 206);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.all-div:after {
+    content: '';
+    display: table;
+    clear: both;
+    /* sağdan soldan her yerden verilen float ların birbirini etkilememesini sağladık. */
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+/* burada sol kolonu sola yapıştırdık ve sayfanın %70ni kaplamasını sağladık. */
+.left-column {
+    float: left;
+    width: 70%;
+
+}
+
+/* burada sağ kolonu sağa yapıştırdık ve sayfanın %30unu kaplamasını sağladık. */
+.right-column {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+/* cardlara verilen paddinglerle eşit olması için right yani side bar kısmına da 20px padding verdim. */
+
+.card-1 {
+    padding: 20px;
+    background-color: rgba(215, 216, 178, 0.966);
+    margin-top: 20px;
+}
+
+.card-2 {
+    padding: 20px;
+    background-color: rgba(215, 216, 178, 0.966);
+    margin-top: 20px;
+}
+
+.card-3 {
+    padding: 20px;
+    background-color: rgba(215, 216, 178, 0.966);
+    margin-top: 20px;
+}
+
+.card-3-1 {
+    padding: 20px;
+    background-color: rgba(215, 216, 178, 0.966);
+    margin-top: 20px;
+}
+
+.card-4 {
+    padding: 20px;
+    background-color: rgba(215, 216, 178, 0.966);
+    margin-top: 20px;
+}
+
+.card-5 {
+    padding: 20px;
+    background-color: rgba(215, 216, 178, 0.966);
+    margin-top: 20px;
+}
+
+.card-6 {
+    padding: 20px;
+    background-color: rgba(215, 216, 178, 0.966);
+    margin-top: 20px;
+}
+
+.right-column .card-4 img {
+    width: 52.5%;
+    margin-bottom: 10px;
+
+}
+
+.right-column .card-5 img {
+    width: 52.5%;
+    margin-bottom: 10px;
+
+}
+
+footer {
+    background-color: rgb(78, 109, 109);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+footer h2 {
+    color: rgba(215, 216, 178, 0.966);
+
+}
+
+/* responsive tasarım olabilmesi için:  */
+@media (max-width:760px) {
+    .all-div {
+        flex-direction: column;
+    }
+}
