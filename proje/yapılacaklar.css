@@ -23,17 +23,18 @@ body {
 
 h1 {
     position: absolute;
-    top: 50px;
-    left: 400px;
-    font-size: 80px;
-    color: rgb(5, 0, 0);
+    top: 100px;
+    left: 500px;
+    font-size: 60px;
+    color: rgb(23, 52, 53);
 }
 
 h3 {
     position: absolute;
-    top: 300px;
+    color: rgb(23, 52, 53);
+    top: 290px;
     left: 300px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .inputdiv {
@@ -49,11 +50,13 @@ h3 {
     width: 300px;
     height: 40px;
     border-radius: 6px;
-    background-color: rgb(49, 48, 47);
+    background-color: rgb(128, 168, 162);
+    text-align: center;
+
 }
 
 .text:hover {
-    box-shadow: 1px 1px 3px 3px wheat;
+    box-shadow: 1px 1px 3px 3px rgb(36, 89, 100);
 }
 
 .text input {
@@ -61,12 +64,13 @@ h3 {
     width: 250px;
     height: 30px;
     outline: none;
-    background-color: rgb(49, 48, 47);
+    background-color: rgb(128, 168, 162);
 }
 
 
 #submit {
     position: absolute;
+    color: antiquewhite;
     left: 310px;
     top: 5px;
     width: 50px;
@@ -79,7 +83,7 @@ h3 {
 
 #submit:hover {
     cursor: pointer;
-    box-shadow: 1px 1px 3px 3px wheat;
+    box-shadow: 1px 1px 3px 3px rgb(63, 116, 126);
 }
 
 #submit:active {
@@ -87,6 +91,7 @@ h3 {
 }
 
 #drop {
+    color: antiquewhite;
     position: absolute;
     left: 370px;
     top: 5px;
@@ -99,7 +104,7 @@ h3 {
 
 #drop:hover {
     cursor: pointer;
-    box-shadow: 1px 1px 3px 3px wheat;
+    box-shadow: 1px 1px 3px 3px rgb(63, 116, 126);
 }
 
 #drop:active {
@@ -116,7 +121,7 @@ h3 {
 .paragraf-style {
     border-radius: 5px;
     cursor: pointer;
-    color: rgb(48, 31, 7);
+    color: rgb(14, 8, 1);
     font-size: 25px;
     background-color: rgb(133, 141, 97);
     transition: 1000ms;
