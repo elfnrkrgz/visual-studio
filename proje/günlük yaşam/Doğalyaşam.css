@@ -1,147 +1,186 @@
-body {
-    display: flex;
-    /* itemlerın soldan sağa hizalanması sağlanır. */
-    flex-direction: row;
-    /* belirlenen alan dışarısına taşma yaşanırsa,taşanları saklar */
-    overflow: hidden;
-    /* bu yükseklik sıkıntı yaratabilir!!!!! */
-    height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alldiv {
     font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 0;
+
+
 }
 
-.card1-left {
-    margin-top: 65px;
+.alldiv:after {
+    content: '';
+    display: table;
+    clear: both;
+    /* sağdan soldan her yerden verilen float ların birbirini etkilememesini sağladık. */
 }
 
-/* bu class yok nerede? */
-.credit {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: #000;
+.left {
+    float: left;
+    width: 48%;
 }
 
-.options {
-    display: flex;
-    /* yanyana eklendi hepsi */
-    flex-direction: row;
-    /* Kapsaycı kutu içindeki elemanları tüm kutuyu kapsayacak şekilde esnetir. */
-    align-items: stretch;
-    overflow: hidden;
-    min-width: 600px;
-    max-width: 900px;
-    /* sayfayı küçültmeye başladığımızda navbardaki butonun hizasında 100pxlik boşluk bırakır paddingmiş gibi */
-    width: calc(100% - 100px);
-    height: 400px;
+.right {
+    float: right;
+    width: 50%;
 }
 
-.option {
-    position: relative;
-    overflow: hidden;
-    min-width: 60px;
-    margin: 3.5px;
-    /* rootun bg defult rengini bg olarak getir ata aynı zamanda bg fotoğraflar geldi */
-    background: var(--optionBackground, var(--defaultBackground, #e6e9ed));
-    /* bgi alana sığması */
-    background-size: auto 100%;
-    background-position: center;
-    cursor: pointer;
-    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+.card-left {
+    padding: 20px;
+    background-color: rgba(113, 134, 134, 0.966);
+    margin-top: 50px;
 }
 
-.option:nth-child(1) {
-    --defaultBackground: #ed5565;
+.card-right {
+    padding: 20px;
+    background-color: rgba(113, 134, 134, 0.966);
+    margin-top: 50px;
 }
 
-.option:nth-child(2) {
-    --defaultBackground: #fc6e51;
-    border-radius: 30px;
+h2 {
+    text-align: center;
+    font-size: 30px;
 }
 
-.option:nth-child(3) {
-    --defaultBackground: #ffce54;
-    border-radius: 30px;
+.yoga {
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 0.2px solid white;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 3%;
+    padding-bottom: 3.5%;
+    background-color: rgb(253, 252, 253);
 }
 
-.option:nth-child(4) {
-    --defaultBackground: #2ecc71;
-    border-radius: 30px;
+.yoga img {
+
+    width: 800px !important;
+    height: 400px !important;
+
+    border: 1px solid rgb(141, 132, 115);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 8px rgba(101, 107, 74, 0.637);
 }
 
-.option:nth-child(5) {
-    --defaultBackground: #5dd6ec;
-    border-radius: 40px;
-}
-
-.option:nth-child(6) {
-    --defaultBackground: #0b2344;
-}
-
-.option:nth-child(7) {
-    --defaultBackground: #4e4881;
-}
-
-.option:nth-child(8) {
-    --defaultBackground: #462263;
-}
-
-.option:nth-child(9) {
-    --defaultBackground: #490a4b;
-}
-
-.option:nth-child(10) {
-    --defaultBackground: #770233;
-}
-
-.option:nth-child(11) {
-    --defaultBackground: #580416;
-}
-
-.option:nth-child(12) {
-    --defaultBackground: #220404;
-}
-
-.option.active {
-
-    flex-grow: 10000;
-    /* Scale özelliği atandığı elementi vereceğimiz katsayı doğrultusunda uzatmaya ya da kısaltmaya yarayan özelliğimizdir ilk atama width 1katına çarpılır */
-    transform: scale(1);
-    max-width: 1000px;
-    margin: 0px;
-    border-radius: 40px;
-    background-size: auto 100%;
-}
-
-.option.active .shadow {
-    box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
-}
-
-.option.active .label {
-    bottom: 20px;
-    left: 20px;
-}
-
-.option.active .info>div {
-    left: 0px;
-    opacity: 1;
-}
-
-.menü {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-
-#logo {
-    padding-left: 20px;
-}
-
-.btn-group {
-    padding-right: 20px;
-}
-
-.btn-group a {
+a {
     text-decoration: none;
-    color: rgb(247, 242, 242);
-    color: black;
+    color: rgb(12, 39, 39);
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    font-size: 60px;
+    color: rgb(23, 52, 53);
+}
+
+
+
+.inputdiv {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    text-align: center;
+
+}
+
+.text {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgb(128, 168, 162);
+    text-align: center;
+
+}
+
+.text:hover {
+    box-shadow: 1px 1px 3px 3px rgb(36, 89, 100);
+}
+
+.text input {
+    border: none;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(128, 168, 162);
+}
+
+#submit {
+    position: absolute;
+    color: antiquewhite;
+    left: 310px;
+    top: 5px;
+    width: 50px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 110, 9);
+}
+
+#submit:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 3px rgb(63, 116, 126);
+}
+
+#submit:active {
+    background-color: rgb(96, 119, 54);
+}
+
+#drop {
+    color: antiquewhite;
+    position: absolute;
+    left: 370px;
+    top: 5px;
+    height: 35px;
+    width: 130px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(12, 64, 77);
+}
+
+#drop:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 3px rgb(63, 116, 126);
+}
+
+#drop:active {
+    background-color: rgb(96, 119, 54);
+}
+
+#toplama {
+    position: absolute;
+    top: 310px;
+    left: 600px;
+    width: 300px;
+}
+
+.paragraf-style {
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(14, 8, 1);
+    font-size: 25px;
+    background-color: rgb(133, 141, 97);
+    transition: 1000ms;
+}
+
+.paragraf-style:hover {
+    background-color: rgb(78, 55, 11);
+}
+
+
+footer {
+    background-color: blueviolet;
 }
