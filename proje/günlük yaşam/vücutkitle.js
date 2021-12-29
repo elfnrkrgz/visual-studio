@@ -18,3 +18,6 @@ function hesapla() {
     alert("Lütfen bir değer giriniz:")
     }
  }
+
+
+ <script src="vücutkitle.js"></script>
