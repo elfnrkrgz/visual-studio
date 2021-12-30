@@ -1,3 +1,4 @@
+// /* Elif Nur KARAGÖZ + Merve Gökçe */
 const sliderContainer=document.querySelector('.slider-conteiner')
 const slideRight=document.querySelector('.right-slide')
 const slideLeft=document.querySelector('.left-slide')

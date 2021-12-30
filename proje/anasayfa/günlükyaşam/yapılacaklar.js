@@ -1,3 +1,4 @@
+///* Elif Nur KARAGÖZ */
 //İD si parantez içerisinde olan html kodlarına etki eden let tipinde tanımlı 4 satır
 let submitButonu = document.getElementById('submit');
 let toplama = document.getElementById('toplama');

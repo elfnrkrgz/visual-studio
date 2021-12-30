@@ -1,3 +1,5 @@
+//Elif Nur KARAGÖZ
+
 console.clear();
 
 const { gsap, imagesLoaded } = window;

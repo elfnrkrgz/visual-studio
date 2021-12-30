@@ -1,3 +1,5 @@
+//Elif  Nur KARAGÖZ
+
 function hesapla() {
     var kilo = document.KitleForm.kilo.value
     var boy = document.KitleForm.boy.value
