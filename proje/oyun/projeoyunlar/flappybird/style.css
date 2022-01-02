@@ -11,3 +11,8 @@ body {
     padding: auto;
 
 }
+
+h1 {
+    text-align: center;
+    color: rgb(19, 5, 46);
+}
