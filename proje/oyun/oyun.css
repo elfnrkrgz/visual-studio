@@ -20,6 +20,23 @@
 }
 
 h1 {
-    margin: 50px;
+    margin: 30px;
+    color: rgb(2, 9, 29);
+
+}
+
+#taskagıtmakass {
+    width: 415px;
+    height: 280px;
+}
+
+#sayıtahminn {
+    width: 415px;
+    height: 280px;
+}
+
+a {
+
+    text-decoration: none;
 
 }
