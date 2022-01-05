@@ -13,31 +13,31 @@ function check(){
 
 	if (question0 == "9") {
 		correct++;
-    }
+}
 	if (question1 == "dogru") {
 		correct++;
-    }
+}
 	if (question2 == "dogru") {
 		correct++;
-    }	
+}	
 	if (question3 == "dogru") {
 		correct++;
-	}
+}
 	if (question4 == "dogru") {
 		correct++;
-    }
+}
 	if (question5 == "dogru") {
 		correct++;
-    }	
+}	
 	if (question6 == "dogru") {
 		correct++;
-	}
+}
 	if (question7 == "dogru") {
 		correct++;
-	}
+}
 	if (question8 == "dogru") {
 		correct++;
-    }
+}
 
 
 	
