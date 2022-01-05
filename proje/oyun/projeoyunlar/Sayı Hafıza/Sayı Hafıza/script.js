@@ -1,3 +1,5 @@
+//Mehmet Enes Korkmaz
+
 class GenNumber extends React.Component {
   componentDidUpdate() {
     let time, digit;

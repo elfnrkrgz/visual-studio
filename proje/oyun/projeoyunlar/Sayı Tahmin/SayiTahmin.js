@@ -1,3 +1,5 @@
+//Feyza Alnıaçık
+
 /*değişkenlerin tanımlanması*/
 var ustSayi,altSayi,sayac,pctutulan;
  

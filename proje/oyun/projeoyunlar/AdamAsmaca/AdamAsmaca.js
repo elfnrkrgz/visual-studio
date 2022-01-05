@@ -1,3 +1,4 @@
+//Feyza Alnıaçık
 var adam = new Array("___\n", " |\n", " O\n", " /", "|", "\\\n", " /", " \\\n", "___");
 var kelimeler= ["KAPI","ÇEKMECE","ANAHTARLIK","BİLGİSAYAR","TERZİ","TERAZİ","YOKARTIK","BULMACA"];
 var kelime;

@@ -1,3 +1,5 @@
+//Feyza Alnıacık
+
 var sayi1,sayi2,dogru=0,yanlis=0,sonuc,cevapla,opt;
  
 //HTML nesnelerinin oluşturulması

@@ -1,3 +1,5 @@
+//Mehmet Enes Korkmaz
+
 // cards array holds all cards
 let card = document.getElementsByClassName("card");
 let cards = [...card];

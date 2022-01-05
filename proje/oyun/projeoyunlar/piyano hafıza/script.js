@@ -1,4 +1,4 @@
-
+//Mehmet Enes Korkmaz
 var Blocks = function(blockAssign,setAssign){
   this.allOn=false
   this.blocks=blockAssign.map((d,i)=>

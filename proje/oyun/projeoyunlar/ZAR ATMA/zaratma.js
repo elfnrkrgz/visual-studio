@@ -1,3 +1,5 @@
+//Feyza Alnıaçık
+
 const liste =[
             "zaratma/zar1.png",
             "zaratma/zar2.gif",

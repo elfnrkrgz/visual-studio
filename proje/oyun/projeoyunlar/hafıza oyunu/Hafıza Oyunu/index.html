@@ -1,5 +1,7 @@
+<!-- Mehmet Enes Korkmaz -->
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Hafıza Testi</title>
@@ -7,9 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
-    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker" >
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker">
     <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
 
     <div class="container">
@@ -18,20 +21,20 @@
         </header>
 
         <section class="score-panel">
-        	<ul class="stars">
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        	</ul>
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
 
-        	<span class="moves">0</span> Hareket
+            <span class="moves">0</span> Hareket
 
             <div class="timer">
             </div>
 
             <div class="restart" onclick=startGame()>
-        		<i class="fa fa-repeat"></i>
-        	</div>
+                <i class="fa fa-repeat"></i>
+            </div>
         </section>
 
         <ul class="deck" id="card-deck">
@@ -44,7 +47,7 @@
             <li class="card match" type="anchor">
                 <i class="fa fa-anchor"></i>
             </li>
-            <li class="card" type="bolt" >
+            <li class="card" type="bolt">
                 <i class="fa fa-bolt"></i>
             </li>
             <li class="card" type="cube">
@@ -88,16 +91,16 @@
         <div id="popup1" class="overlay">
             <div class="popup">
                 <h2>Helal olsun sanaa 🎉</h2>
-                <a class="close" href=# >×</a>
+                <a class="close" href=#>×</a>
                 <div class="content-1">
-                    Tebrikler  🎉🎉
+                    Tebrikler 🎉🎉
                 </div>
                 <div class="content-2">
                     <p> toplam <span id=finalMove> </span> adet açılış </p>
                     <p>süren <span id=totalTime> </span> </p>
-                    <p>Skorun:  <span id=starRating></span></p>
+                    <p>Skorun: <span id=starRating></span></p>
                 </div>
-                <button id="play-again"onclick="playAgain()">
+                <button id="play-again" onclick="playAgain()">
                     Tekrar Oyna 😄</a>
                 </button>
             </div>
@@ -106,4 +109,5 @@
     </div>
     <script src="js/app.js"></script>
 </body>
+
 </html>
