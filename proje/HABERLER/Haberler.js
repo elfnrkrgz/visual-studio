@@ -3,7 +3,7 @@
 let haber = {
     apiKey: 'apikey 5haKhVGDPDlumCW4poUQMy:4hSGB3dOjjmUFK7DjaQAwf',
     fetchHaber: function () {
-        fetch("https://api.collectapi.com/news/getNews?country=tr&tag=general&apiKey=5haKhVGDPDlumCW4poUQMy:4hSGB3dOjjmUFK7DjaQAwf")
+        fetch("https://api.collectapi.com/news/getNews?country=tr&tag=general&apiKey=0fQOT6QH9Tr6ibUwCuAjpN:7efySjuSyHOQ5vgEl1pnk7")
             .then((response) => response.json())
             .then((data) => this.displayHaber(data))
 
@@ -28,7 +28,7 @@ let haber = {
 let haber2 = {
     apiKey: 'apikey 5haKhVGDPDlumCW4poUQMy:4hSGB3dOjjmUFK7DjaQAwf',
     fetchHaber: function () {
-        fetch("https://api.collectapi.com/news/getNews?country=tr&tag=general&apiKey=5haKhVGDPDlumCW4poUQMy:4hSGB3dOjjmUFK7DjaQAwf")
+        fetch("https://api.collectapi.com/news/getNews?country=tr&tag=general&apiKey=0fQOT6QH9Tr6ibUwCuAjpN:7efySjuSyHOQ5vgEl1pnk7")
             .then((response) => response.json())
             .then((data) => this.displayHaber(data))
 
@@ -51,7 +51,7 @@ let haber2 = {
 let haber3 = {
     apiKey: 'apikey 5haKhVGDPDlumCW4poUQMy:4hSGB3dOjjmUFK7DjaQAwf',
     fetchHaber: function () {
-        fetch("https://api.collectapi.com/news/getNews?country=tr&tag=general&apiKey=5haKhVGDPDlumCW4poUQMy:4hSGB3dOjjmUFK7DjaQAwf")
+        fetch("https://api.collectapi.com/news/getNews?country=tr&tag=general&apiKey=0fQOT6QH9Tr6ibUwCuAjpN:7efySjuSyHOQ5vgEl1pnk7")
             .then((response) => response.json())
             .then((data) => this.displayHaber(data))
 
@@ -74,7 +74,7 @@ let haber3 = {
 let haber4 = {
     apiKey: 'apikey 5haKhVGDPDlumCW4poUQMy:4hSGB3dOjjmUFK7DjaQAwf',
     fetchHaber: function () {
-        fetch("https://api.collectapi.com/news/getNews?country=tr&tag=general&apiKey=5haKhVGDPDlumCW4poUQMy:4hSGB3dOjjmUFK7DjaQAwf")
+        fetch("https://api.collectapi.com/news/getNews?country=tr&tag=general&apiKey=0fQOT6QH9Tr6ibUwCuAjpN:7efySjuSyHOQ5vgEl1pnk7")
             .then((response) => response.json())
             .then((data) => this.displayHaber(data))
 
