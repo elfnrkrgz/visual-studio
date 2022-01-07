@@ -1,3 +1,6 @@
+// Feyza Alnıaçık
+
+
 
                 // hesap makinesi js kodları başlangıcı
 

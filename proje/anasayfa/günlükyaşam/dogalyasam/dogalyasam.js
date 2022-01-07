@@ -1,4 +1,4 @@
-//Elif NUR KARAGÖZ
+//Merve Gökçe + Ümit Can Kızılcan
 function burcbul() {
     document.form1.gun.selectedIndex;
     document.form1.ay.selectedIndex;

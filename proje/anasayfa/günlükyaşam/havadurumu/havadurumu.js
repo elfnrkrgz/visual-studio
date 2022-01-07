@@ -1,4 +1,5 @@
 //Deniz KARTAL
+
 let weather = {
     apiKey: "df102354eee0be04f578070d5b06317b",
     fetchWeather: function (city) {

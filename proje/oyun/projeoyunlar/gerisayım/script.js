@@ -1,3 +1,4 @@
+//Mehmet enes korkmaz
 const countdown = document.querySelector(".countdown");
 
 const interval = setInterval(() => {

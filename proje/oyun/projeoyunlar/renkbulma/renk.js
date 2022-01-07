@@ -1,4 +1,4 @@
-// Deniz Kartal
+// Ümitcan Kızılcan
 
 var hucre = [];
 var puan = 0;
