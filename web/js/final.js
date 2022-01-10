@@ -273,16 +273,26 @@
 // arr_isim.forEach(item => console.log (item));
 // // // çıktısı for gibi satırlara ali veli ayşe basar.
 
-let userss = [   {id:1, name:"ali"},   {id:1, name:"aliiiii"},   {id:2, name:"Ahmet"},   {id:3, name:"mehmet"}]
-let res_find = userss.find(e => e.id == 1);
-console.log(res_find);
+// let userss = [   {id:1, name:"ali"},   {id:1, name:"aliiiii"},   {id:2, name:"Ahmet"},   {id:3, name:"mehmet"}]
+// let res_find = userss.find(e => e.id == 1);
+// console.log(res_find);
 // // array içindeki objelerden şartı sağlayan ilk kaydı getirir. burada id'si 1 olan ilk şeyi yani ali kelimesini getirir.
 
-// let ssss = sayii.some(x =>x >3);
-// // değeri 3'ten büyük olan değerleri getirir.
 
+// !!!!!!!!! ANLAMADIM !!!!!!!!
+
+// let sayii=[1,2,3,4,5,6];
+// let ssss = sayii.some(x =>x>3);
+// console.log(ssss);
+// // // değeri 3'ten büyük olan değerleri getirir.
+
+
+// let sayii=[1,2,3,4,5,6];
 // let inn = sayii.includes(5);
-// // değeri 5 olanı varsa getirir.
+// console.log(inn);
+// // // değeri 5 olanı varsa getirir.
+
+// !!!!!!! ANLAMADIM !!!!!!!
 
 // let ev = sayii.every(x=>x>3);
 // // bütün itemlere tek tek bakar hepsi şartı sağlıyor mu diye kontrol eder.
@@ -310,6 +320,7 @@ console.log(res_find);
 // // dizide kaç tane çift sayı old verir
 
 // let uzunluk = ["mustafa", "ahmet"].map(item=> item.length);
+// console.log(uzunluk);
 // // kelime uzunluğuna göre sayıya çevirip dizi oluşturur.
 
 // let aaabb = a.split(',');
@@ -319,10 +330,10 @@ console.log(res_find);
 // // bir başlangıç değeri verilir (en sağdaki 0) ve onun üzerine arraydeki sayıları ekler, toplar. sonuç verir.
 
 // let a= [1,2,3];
-// console.log(...a);
-// // dizinin içinden itemleri çıkartır.
+// //console.log(...a);
+// // // dizinin içinden itemleri çıkartır.
 // console.log([...a, 4]);
-// // yazılırsa kendi dizini oluşturmuş olursun. dizi=> 1 2 3 4
+// // // yazılırsa kendi dizini oluşturmuş olursun. dizi=> 1 2 3 4
 
 // function showNmae(first, last, ...titles){
 //     console.log(first + last);
